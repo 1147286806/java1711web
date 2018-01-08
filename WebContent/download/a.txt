@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h3>通过超链接下载资源</h3>
+<a href="/java1711web/download/a.png">a.png</a><br/>
+<a href="">a.mp4</a><br/>
+<a href="">a.rar</a><br/>
+<a href="/java1711web/download/a.txt">a.txt</a><br/>
+<h3>通过Servlet下载资源</h3>
+<a href="/java1711web/download?fileName=a.png">a.jpg</a><br/>
+<a href="/java1711web/download?fileName=a.mp4">a.mp4</a><br/>
+<a href="/java1711web/download?fileName=a.rar">a.rar</a><br/>
+<a href="/java1711web/download?fileName=a.txt">a.txt</a><br/>
+</body>
+</html>
